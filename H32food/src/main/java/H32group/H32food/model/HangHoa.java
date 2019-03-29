@@ -11,39 +11,36 @@ public class HangHoa {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column
-    private Long id;
+    private Integer id;
 
-    @Column(name = "Ten")
-    @NotEmpty(message = "*Khong de trong")
+    @Column
+//    @NotEmpty(message = "*Khong de trong")
     private String ten;
 
     @Column
-    @NotEmpty(message = "*Khong de trong")
+//    @NotEmpty(message = "*Khong de trong")
     private Long soLuong;
 
     @Column
     private String nguon;
 
     @Column
-    @NotEmpty(message = "*Khong de trong")
+//    @NotEmpty(message = "*Khong de trong")
     private Double giaMua;
 
     @Column
-    @NotEmpty(message = "*Khong de trong")
+//    @NotEmpty(message = "*Khong de trong")
     private Double giaBan;
 
     @Column
-    @NotEmpty(message = "*Khong de trong")
+//    @NotEmpty(message = "*Khong de trong")
     private String loai;
 
-//    @ManyToMany(mappedBy = "HangHoas")
-//    private Collection<HoaDon> HoaDons;
-
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

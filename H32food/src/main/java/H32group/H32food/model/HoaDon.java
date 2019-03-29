@@ -18,13 +18,14 @@ public class HoaDon {
     private Long id;
 
     @NotEmpty
+    @Column
     private long soLuong;
 
     @NotEmpty
     private double donGia;
 
     @Temporal(TemporalType.TIMESTAMP)
-    @Column(name = "ngay_lap_hd", nullable = false)
+    @Column
     @CreationTimestamp
     private Date ngayLapHD;
 
