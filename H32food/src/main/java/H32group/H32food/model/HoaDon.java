@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
 
-@Entity
-@Table(name = "HoaDon")
+//@Entity
+//@Table(name = "HoaDon")
 public class HoaDon {
 
     @Id

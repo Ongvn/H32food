@@ -1,3 +1,4 @@
+/*
 package H32group.H32food.configuration;
 
 import org.springframework.context.annotation.Bean;
@@ -14,3 +15,4 @@ public class SecurityConfig {
         return http.build();
     }
 }
+*/

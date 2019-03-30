@@ -4,8 +4,8 @@ import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
 import java.util.Collection;
 
-@Entity
-@Table(name = "HangHoa")
+//@Entity
+//@Table(name = "HangHoa")
 public class HangHoa {
 
     @Id
